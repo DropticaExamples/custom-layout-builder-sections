@@ -1,0 +1,26 @@
+layout_custom_one_column:
+  label: '[CUSTOM] One column'
+  category: 'Custom layouts'
+  path: layouts/custom_onecol_section
+  template: layout--custom-onecol-section
+  class: '\Drupal\custom_layout_builder\Plugin\Layout\CustomLayoutClassBase'
+  default_region: first
+  icon_map:
+    - [first]
+  regions:
+    first:
+      label: First
+layout_custom_two_columns:
+  label: '[CUSTOM] Two columns'
+  category: 'Custom layouts'
+  path: layouts/custom_twocol_section
+  template: layout--custom-twocol-section
+  class: '\Drupal\custom_layout_builder\Plugin\Layout\CustomLayoutClassBase'
+  default_region: first
+  icon_map:
+    - [first, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
